@@ -1,0 +1,156 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.con {
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 65dvh;
+    width: 55dvw;
+}
+
+.left-box {
+    background: hsl(31, 77%, 52%);
+    border-radius: 6px 0px 0px 6px;
+}
+
+.mid-box {
+    background: hsl(184, 100%, 22%);
+}
+
+.right-box {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 6px 6px 0px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2rem;
+}
+
+img {
+    width: 35%;
+}
+
+.box {
+    padding: 40px;
+}
+
+.btn1 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    /* font-family: Arial; */
+    color: hsl(31, 77%, 52%);
+    font-size: 13px;
+    background: hsl(0, 0%, 95%);
+    padding: 13px 3px;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+}
+
+.btn1:hover {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.btn2 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    /* font-family: Arial; */
+    color: hsl(184, 100%, 22%);
+    font-size: 13px;
+    background: hsl(0, 0%, 95%);
+    padding: 13px 3px;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+}
+
+.btn2:hover {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.btn3 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    /* font-family: Arial; */
+    color: hsl(179, 100%, 13%);
+    font-size: 13px;
+    background: hsl(0, 0%, 95%);
+    padding: 13px 3px;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+}
+
+.btn3:hover {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+@media (max-width:375px) {
+    .container {
+        flex-direction: column;
+        height: 50dvh;
+        width: 80dvw;
+    }
+
+    .con {
+        height: 100%;
+    }
+
+    .left-box {
+        border-radius: 6px 6px 0px 0px;
+    }
+
+    .right-box {
+        border-radius: 0px 0px 6px 6px;
+        margin-bottom: 20px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
